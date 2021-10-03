@@ -1,4 +1,4 @@
 /* Exists */
 $.fn.exists = function(){
-    return this.length;
+    return this.length > 0;
 };
